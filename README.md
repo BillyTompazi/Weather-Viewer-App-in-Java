@@ -1,1 +1,2 @@
 # Weather-Viewer-App-in-Java
+The program reads csv files and present the results of 34 weather stations separately on a table view along with 3 different graphs. the user can also click the report button to open a text file with the data of the current station. There is also a button "Show weather map" which when is clicked a new window opens with a global map showing current weather conditions around the world. It uses google maps and openWeatherMap API.
