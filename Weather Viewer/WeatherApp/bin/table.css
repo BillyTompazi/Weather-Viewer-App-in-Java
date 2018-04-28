@@ -1,0 +1,101 @@
+.table-view {
+   -fx-font-weight:bold;
+}
+
+.table-view .arrow {
+    -fx-background-color: white;
+   }
+
+ .table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#336699 0%, #006666 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: linear-gradient(#336699 0%, #006666 100%);
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: linear-gradient(#009999 0%, #25b7c4 100%);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; 
+}
+
+.table-row-cell:odd{
+    -fx-background-color: linear-gradient(#0066ff 0%, #33ccff 100%);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #4b5e5e;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+
+#vbox-custom {
+	-fx-background-image: url("skyImage5.jpg");
+	-fx-font-weight:bold;
+ 	-fx-background-position: center center;
+ 
+}
+
+.chart-title {
+  -fx-text-fill: white;
+}
+
+.axis-label {
+  -fx-text-fill: white;
+}
+
+.axis {
+    -fx-font-size: 1.3em;    
+    -fx-tick-label-fill: white;
+    -fx-minor-tick-length: 10;
+}
+ 
+.axis-label {
+   -fx-text-fill: white; 
+}
+
+.chart-pie-label-line {
+    -fx-stroke: white;
+    -fx-fill: white;
+}
+ 
+.chart-pie-label {
+    -fx-fill: white;
+    -fx-font-size: 1.1em;
+} 
+
+.styleButtons {
+	-fx-background-color: linear-gradient(#0066cc 0%, #00ccff 100%);
+	-fx-background-radius: 15;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-size: 1.2em;
+    -fx-margin: 2px;
+}
+
+.styleButtons:hover{
+    -fx-background-color: linear-gradient(#00ccff 0%, #66ffff 100%);
+    -fx-text-fill: -fx-text-base-color;   
+}
+

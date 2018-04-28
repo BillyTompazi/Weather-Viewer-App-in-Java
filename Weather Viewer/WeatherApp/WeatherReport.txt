@@ -1,0 +1,6 @@
+Number: 34
+Station: Yeovilton
+Highest: 25.3
+Lowest: -4.5
+Average annual af: 4.231481481481482
+Average annual rainfall: 58.995370370370374
